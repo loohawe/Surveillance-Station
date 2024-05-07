@@ -10,11 +10,19 @@
 - Delete this task when you see there are 58 licenses.
 
 ---
+### 0. x86_64 (9.2.0-11289)
+- Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.2.0-11289/SurveillanceStation-x86_64-9.2.0-11289.spk
+- Script:
+```
+bash <(curl -L https://raw.githubusercontent.com/loohawe/Surveillance-Station/main/lib/SurveillanceStation-9.2.0-11289-x86_64/install_license)
+```
+
+
 ### A. x86_64 (9.1.2-10854)
 - Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.2-10854/SurveillanceStation-x86_64-9.1.2-10854.spk
 - Script:
 ```
-bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license)
+bash <(curl -L https://raw.githubusercontent.com/loohawe/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license)
 ```
 
 ### B. x86_64_openvino (9.1.1-10728)
@@ -35,5 +43,5 @@ bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/mai
 ### Remove license
 - Script:
 ```
-bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/license/remove_license)
+bash <(curl -L https://raw.githubusercontent.com/loohawe/Surveillance-Station/main/lib/license/remove_license)
 ```
